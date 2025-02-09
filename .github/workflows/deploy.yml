@@ -1,9 +1,7 @@
 
 ---
 
-### 📜 **4. `.github/workflows/deploy.yml` (GitHub Actions for Auto Deployment)**
-This GitHub Action will automatically deploy the bot when you push changes.
-
+## 📜 **7. `.github/workflows/deploy.yml` (GitHub Actions for Auto Deployment)**
 ```yaml
 name: Deploy to Cloudflare Workers
 
