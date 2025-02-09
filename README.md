@@ -1,4 +1,4 @@
-# 🤖 Ashlynn Telegram Bot (Cloudflare Worker)
+# 🤖 LLM Telegram Bot (Cloudflare Worker)
 
 This is a Cloudflare Worker-based Telegram bot that supports multiple AI models.
 
@@ -72,14 +72,25 @@ Now, deploy your bot with:
 wrangler deploy
 ```
 
-9️⃣ Test Your Bot
-Send /start to your bot on Telegram and verify that it responds correctly.
+9️⃣ Register the Webhook
+To enable webhook-based communication, register your bot's webhook with Telegram:
+```bash
+curl -X POST "https://api.telegram.org/bot<BOT_TOKEN>/setWebhook?url=<WORKER_URL>"
+```
+🔹 Replace <BOT_TOKEN> with your actual bot token.
+🔹 Replace <WORKER_URL> with the URL of your deployed Cloudflare Worker (e.g., https://ashlynn-bot.yourworkers.dev).
+
+After registering the webhook, the bot will start receiving updates instantly.
+
+🔟 Test Your Bot
+Send /start to your bot on Telegram and ensure it responds correctly.
 
 
 ## Credits
-Made by [Ashlynn Repository](https://t.me/Ashlynn_Repository)
+Made by [Ashlynn Repository](https://t.me/Ashlynn_Repository) 💜
 
-If you find this project useful, please consider giving it a ⭐ on GitHub! Your support helps improve and maintain this repository. Forking the repo is also encouraged – feel free to customize and enhance the code to fit your own needs.
+If you find this project useful, please consider giving it a ⭐ on GitHub!
+Your support helps improve and maintain this repository. Forking the repo is also encouraged – feel free to customize and enhance the code to fit your own needs. 🚀
 
 
 
