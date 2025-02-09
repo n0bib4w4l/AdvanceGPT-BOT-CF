@@ -77,7 +77,9 @@ To enable webhook-based communication, register your bot's webhook with Telegram
 ```bash
 curl -X POST "https://api.telegram.org/bot<BOT_TOKEN>/setWebhook?url=<WORKER_URL>"
 ```
+
 🔹 Replace <BOT_TOKEN> with your actual bot token.
+
 🔹 Replace <WORKER_URL> with the URL of your deployed Cloudflare Worker (e.g., https://ashlynn-bot.yourworkers.dev).
 
 After registering the webhook, the bot will start receiving updates instantly.
