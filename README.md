@@ -35,7 +35,7 @@ wrangler deploy
 
 6️⃣ Set up Cloudflare D1
 ```bash
-wrangler d1 execute AdvanceGPT-BOT-CF --file=./db/schema.sql
+wrangler d1 execute ashlynn_repo --file=./db/schema.sql
 ```
 
 7️⃣ Test your bot
