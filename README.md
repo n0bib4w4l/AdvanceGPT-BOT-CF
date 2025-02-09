@@ -75,7 +75,7 @@ wrangler deploy
 9️⃣ Register the Webhook
 To enable webhook-based communication, register your bot's webhook with Telegram:
 ```bash
-curl -X POST "https://api.telegram.org/bot<BOT_TOKEN>/setWebhook?url=WORKER_URL"
+curl -X POST "https://api.telegram.org/bot(BOT_TOKEN)/setWebhook?url=WORKER_URL"
 ```
 
 🔹 Replace <BOT_TOKEN> with your actual bot token.
