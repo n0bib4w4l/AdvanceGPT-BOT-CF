@@ -12,7 +12,7 @@ This is a Cloudflare Worker-based Telegram bot that supports multiple AI models.
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/Itz-Ashlynn/AdvanceGPT-BOT-CF.git
-cd ashlynn-bot
+cd AdvanceGPT-BOT-CF
 ```
 
 2️⃣ Install Wrangler CLI (Cloudflare CLI tool)
@@ -38,6 +38,7 @@ After creation, copy the database ID from the output.
 Open wrangler.toml and update these values:
 ```bash
 name = "ashlynn-bot"
+main = "worker/worker.js" 
 type = "javascript"
 account_id = "your-cloudflare-account-id"
 workers_dev = true
