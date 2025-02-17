@@ -11,10 +11,12 @@ export default {
     const CHANNEL_USERNAME = '@Ashlynn_Repository';
     const VALID_MODELS = [
       "claude-3-haiku",
-      "gpt-4o",
-      "qwen-2-72b",
+      "gpt-4o-mini",
+      "glm-4",
+      "dbrx-instruct",
       "deepseek-r1",
-      "phi-4",
+      "qwen-2.5-coder-32b",
+      "llama-3.3-70b",
       "gemini-1.5-flash",
       "mixtral-8x7b"
     ]; 
