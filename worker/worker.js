@@ -13,6 +13,7 @@ export default {
       "claude-3-haiku",
       "gpt-4o-mini",
       "glm-4",
+      "gpt-4o",      
       "dbrx-instruct",
       "deepseek-r1",
       "qwen-2.5-coder-32b",
